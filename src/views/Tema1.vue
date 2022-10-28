@@ -221,7 +221,7 @@
     br
     br
     separador
-    br
+    
 
     //Infografia punto caliente
     .row.tarjeta.tarjeta--blanca.p-3
@@ -233,30 +233,40 @@
       p ¿Qué es un método de respaldo? Consiste en hacer copias de los datos almacenados en cualquier equipo conectado a la infraestructura de red de una compañía. Se realiza con el fin de tener la información custodiada y segura, en caso de daños en el <em>hardware</em>, <em>malwares</em>, errores, etc.
       
       p En los métodos de respaldo encontramos:
+      
 
+      br
+      br
       .bloque-tarjetas-punto-caliente-tema1
-        ImagenInfografica.color-primario
-          template(v-slot:imagen)
-            figure
-              img(src="@/assets/curso/temas/imagen-punto-caliente-tema1.png")
-              //figcaption Leyenda de la imagen
+            ImagenInfografica.color-primario
+              template(v-slot:imagen)
+                figure
+                  img(src="@/assets/curso/temas/imagen-punto-caliente-tema1.png")
+                  //figcaption Leyenda de la imagen
 
-          .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="18.5%" y="36%" numero="1")
-            //.h5.mb-2 Copia de seguridad completa
-            p Consiste en obtener el máximo respaldo de toda la información contenida en cualquier dispositivo de almacenamiento o servidor. Este método, normalmente, se ejecuta por primera vez desde su configuración y el tamaño de la copia es amplio en comparación con copias parciales. Si se efectúan copias a bases de datos, igualmente se realiza una copia generalizada de toda la información contenida en el dispositivo de almacenamiento. Lo mismo ocurre con copias a sistemas virtualizados, se realiza respaldo de toda la máquina para asegurar, en caso de alguna falla, su correcto funcionamiento y su data intacta.
+              .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="18.5%" y="36%" numero="+")
+                //.h5.mb-2 Copia de seguridad completa
+                p Consiste en obtener el máximo respaldo de toda la información contenida en cualquier dispositivo de almacenamiento o servidor. Este método, normalmente, se ejecuta por primera vez desde su configuración y el tamaño de la copia es amplio en comparación con copias parciales. Si se efectúan copias a bases de datos, igualmente se realiza una copia generalizada de toda la información contenida en el dispositivo de almacenamiento. Lo mismo ocurre con copias a sistemas virtualizados, se realiza respaldo de toda la máquina para asegurar, en caso de alguna falla, su correcto funcionamiento y su data intacta.
 
-          .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="43.5%" y="36%" numero="2")
-            //.h5.mb-2 Copia de seguridad incremental
-            p Consiste en hacer copias de la información que guarda los datos que se modificaron desde la última copia efectuada, este proceso es mucho más rápido, ya que la información respaldada en este caso es mucho menor de la que contiene una copia completa. Sin embargo, ambos procesos son complementarios, es decir, uno funciona y puede ejecutarse diariamente y, el otro, se ejecuta cada cierto tiempo con una periodicidad prolongada.
+              .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="43.5%" y="36%" numero="+")
+                //.h5.mb-2 Copia de seguridad incremental
+                p Consiste en hacer copias de la información que guarda los datos que se modificaron desde la última copia efectuada, este proceso es mucho más rápido, ya que la información respaldada en este caso es mucho menor de la que contiene una copia completa. Sin embargo, ambos procesos son complementarios, es decir, uno funciona y puede ejecutarse diariamente y, el otro, se ejecuta cada cierto tiempo con una periodicidad prolongada.
 
-          .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="68%" y="35.5%" numero="3")
-            //.h5.mb-2 Copia de seguridad diferencial
-            p Consiste en hacer copias de la información que guarda los datos que se modificaron desde la última copia efectuada, este proceso es mucho más rápido, ya que la información respaldada en este caso es mucho menor de la que contiene una copia completa. Sin embargo, ambos procesos son complementarios, es decir, uno funciona y puede ejecutarse diariamente y, el otro, se ejecuta cada cierto tiempo con una periodicidad prolongada.
+              .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="68%" y="35.5%" numero="+")
+                //.h5.mb-2 Copia de seguridad diferencial
+                p Consiste en hacer copias de la información que guarda los datos que se modificaron desde la última copia efectuada, este proceso es mucho más rápido, ya que la información respaldada en este caso es mucho menor de la que contiene una copia completa. Sin embargo, ambos procesos son complementarios, es decir, uno funciona y puede ejecutarse diariamente y, el otro, se ejecuta cada cierto tiempo con una periodicidad prolongada.
 
-          .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="92.5%" y="35.5%" numero="4")
-            //.h5.mb-2 Copias de imágenes
-            p Consiste en crear un espejo de un equipo junto a la información, aplicaciones y sistema operativo. Concretamente, se efectúa a los servidores o equipos críticos de las compañías. Al generar una imagen del sistema y ejecutarla en otro equipo servidor, es como si se tuvieran dos instancias de un mismo equipo.
-    br
+              .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="92.5%" y="35.5%" numero="+")
+                //.h5.mb-2 Copias de imágenes
+                p Consiste en crear un espejo de un equipo junto a la información, aplicaciones y sistema operativo. Concretamente, se efectúa a los servidores o equipos críticos de las compañías. Al generar una imagen del sistema y ejecutarla en otro equipo servidor, es como si se tuvieran dos instancias de un mismo equipo.
+      br
+      br
+      p.texto-invisible-puntocaliente-tema1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione eaque accusantium consequatur numquam? Voluptatibus quo voluptas tenetur temporibus! Earum corporis laudantium distinctio, illum accusamus quis non ea nobis cum!
+      p.texto-invisible-puntocaliente-tema1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione eaque accusantium consequatur numquam? Voluptatibus quo voluptas tenetur temporibus! Earum corporis laudantium distinctio, illum accusamus quis non ea nobis cum!
+      p.texto-invisible-puntocaliente-tema1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ratione eaque accusantium consequatur numquam? Voluptatibus quo voluptas tenetur temporibus! Earum corporis laudantium distinctio, illum accusamus quis non ea nobis cum!
+      
+
+        
 
         
 </template>

@@ -76,15 +76,15 @@
             img(src='@/assets/curso/temas/imagen-punto-caliente-tema3.png', alt='Texto que describa la imagen')
             //figcaption Leyenda de la imagen
 
-        .tarjeta.tarjetas-punto-caliente-tema3.p-3(x="28%" y="87%" numero="1")
+        .tarjeta.tarjetas-punto-caliente-tema3.p-3(x="28%" y="87%" numero="+")
           //.h5.mb-2 titulo
           p Este tipo de <em>hosting</em> hace referencia a espacio de almacenaje de la web compartido con otros sitios, no se recomienda para sitios de mucho flujo e interacción o con usuarios concurrentes, ya que los recursos son limitados. Es recomendable para sitios pequeños sin tanta concurrencia.
 
-        .tarjeta.tarjetas-punto-caliente-tema3.p-3(x="62%" y="88%" numero="2")
+        .tarjeta.tarjetas-punto-caliente-tema3.p-3(x="62%" y="88%" numero="+")
           //.h5.mb-2 titulo
           p Es recomendable para empresas que tengan un mayor flujo y concurrencia en las visitas del sitio, permite realizar configuraciones y personalizaciones adicionales con respecto al <em>hosting</em> compartido.
 
-        .tarjeta.tarjetas-punto-caliente-tema3.p-3(x="96%" y="88%" numero="3")
+        .tarjeta.tarjetas-punto-caliente-tema3.p-3(x="96%" y="88%" numero="+")
           //.h5.mb-2 titulo
           p Recomendable para empresas de mayor nivel adquisitivo, con mucho flujo y tráfico de la web, se especializa en la gestión de datos a grandes rasgos.
   
@@ -242,7 +242,7 @@
           .col-7
             p Un gestor de contenidos asiste en la creación de sitios web, permitiendo, de esa manera, la gestión, organización y administración, fácil y eficiente, de la aplicación web que se esté construyendo. Los CMS permiten a personas sin experiencia y sin conocimientos avanzados en diseño o desarrollo, realizar foros, blogs, páginas web, comercios electrónicos u otros aplicativos a partir de plantillas personalizables y <em>plugins</em> que aumentan capacidades, características y funcionalidades. Con pocas horas de trabajo, se puede tener una web lista con opciones de mejora, actualización constante y con herramientas como texto, videos, imágenes y diseño en general. Así mismo, los CMS brindan ventajas para SEO y posicionamiento en Google, permiten el trabajo colaborativo <em>online</em> y pueden ser gestionados por usuarios con roles distintos que comparten experiencias, diseños y enfoques.
             .cajon.color-acento-contenido.p-4
-              p ¿Sabía que los clustering ayudan a organizar y estructurar información que es objeto de estudio para un fin determinado? En el caso de aplicar una promoción en un supermercado, por ejemplo, se cuenta con una base de datos de clientes agrupados por gustos, preferencias, ubicación, periodicidad de compras, etc., por lo que enviar una promoción para cada cliente resulta no solo complejo, sino dispendioso por el uso de una gran cantidad de tiempo. Con clustering, una posible forma sería enviar la promoción a cada cliente de acuerdo con uno o varios criterios seleccionados. 
+              p Existen gran variedad de CMS con licencia GPL o de libre distribución y uso que pueden ser descargados y utilizados para gestionar contenido. Los siguientes CMS son los más empleados y demandados en la actualidad, cuentan con una amplia trayectoria, comunidad y plugins que permiten mayores funciones.
           .col-5
             figure
               img(data-aos="fade-down-right")(src="@/assets/curso/temas/imagen2-gestores-contenidos.png").imagen2-gestores-contenido
