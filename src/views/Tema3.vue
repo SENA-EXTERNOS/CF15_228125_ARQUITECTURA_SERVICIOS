@@ -77,7 +77,7 @@
       ImagenInfografica.color-acento-botones
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/temas/imagen-punto-caliente-tema3.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/imagen-punto-caliente2-tema3.png', alt='Texto que describa la imagen')
             //figcaption Leyenda de la imagen
 
         .tarjeta.tarjetas-punto-caliente-tema3.p-3(x="28%" y="87%" numero="+")

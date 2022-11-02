@@ -241,7 +241,7 @@
             ImagenInfografica.color-primario
               template(v-slot:imagen)
                 figure
-                  img(src="@/assets/curso/temas/imagen-punto-caliente-tema1.png")
+                  img(src="@/assets/curso/temas/imagen-punto-caliente2-tema1.png")
                   //figcaption Leyenda de la imagen
 
               .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="18.5%" y="36%" numero="+")
