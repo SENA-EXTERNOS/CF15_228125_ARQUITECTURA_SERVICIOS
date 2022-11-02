@@ -6,7 +6,8 @@
       .titulo-principal__numero
         span 3
       h1 Instalación, configuración, hosting, dominio y FTP 
-    p En este tema se plantearán las definiciones de hosting y dominio, estas son primordiales al momento de crear una web que sea frecuentada y visitada, y que, además, cumpla las condiciones para ser SEO (optimización en motores de búsqueda).
+    p En este tema se plantearán las definiciones de <em>hosting</em> y dominio, estas son primordiales al momento de crear una web que sea frecuentada y visitada, y que, además, cumpla las condiciones para ser SEO (optimización en motores de búsqueda).
+    P Antes de continuar, se definirá cada una de ellas.
     br
     br
     .row.justify-content-center.mb-5
@@ -21,7 +22,7 @@
             
             .tarjeta-slide__img.p-xl-5
               h3.color-texto-tarjetas-animadas-tema3.p-2 Hosting
-              p.color-texto-tarjetas-animadas-tema3.p-2 es el espacio que se adquiere o alquila a un proveedor tecnológico para alojar el proyecto web que se está desarrollando y, en este espacio, se almacenará la información correspondiente al sitio web. Es necesario tener en cuenta varios aspectos al obtener un plan de hosting, como elegir el plan de almacenaje, tanto de memoria como de disco duro, el número de sitios, o la cantidad de sitios que pueda soportar el hosting. También, es necesario conocer de antemano el ancho de banda, los datos que soporta el servidor al mes por consumo de la web y la seguridad, siendo primordial, elegir planes que tengan certificados de seguridad como SSL (capa de puertos seguros), antivirus o <em>firewall</em>.
+              p.color-texto-tarjetas-animadas-tema3.p-2 Es el espacio que se adquiere o alquila a un proveedor tecnológico para alojar el proyecto web que se está desarrollando y, en este espacio, se almacenará la información correspondiente al sitio web. Es necesario tener en cuenta varios aspectos al obtener un plan de hosting, como elegir el plan de almacenaje, tanto de memoria como de disco duro, el número de sitios, o la cantidad de sitios que pueda soportar el hosting. También, es necesario conocer de antemano el ancho de banda, los datos que soporta el servidor al mes por consumo de la web y la seguridad, siendo primordial, elegir planes que tengan certificados de seguridad como SSL (capa de puertos seguros), antivirus o <em>firewall</em>.
       
       .col-sm-7.col-xl-4.mb-5.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-fondo-tarjetas-animadas-tema3(@mouseover="indicadorTarjetaSlide = false")
@@ -33,7 +34,10 @@
             
             .tarjeta-slide__img.p-xl-5
               h3.color-texto-tarjetas-animadas-tema3.p-2 Dominio
-              p.color-texto-tarjetas-animadas-tema3.p-2 es el nombre que se le da al sitio en internet, por ejemplo <em>www.misitioweb.com</em>. Crear un nombre no es sencillo, se debe realizar un estudio sobre nombres llamativos de acuerdo a la finalidad de la web, si el sitio es para una empresa, lo ideal es que tenga el mismo nombre, pero, si es personal, debe hacer referencia al nombre, ser recordable y que los buscadores puedan relacionarlo con los productos o servicios que ofrece. Es importante considerar las palabras claves y evitar números o guiones en el nombre, esto tiende a confundir a quienes navegan buscando sitios en internet. 
+              p.color-texto-tarjetas-animadas-tema3.p-2 Es el nombre que se le da al sitio en internet, por ejemplo <em>www.misitioweb.com</em>. Crear un nombre no es sencillo, se debe realizar un estudio sobre nombres llamativos de acuerdo a la finalidad de la web, si el sitio es para una empresa, lo ideal es que tenga el mismo nombre, pero, si es personal, debe hacer referencia al nombre, ser recordable y que los buscadores puedan relacionarlo con los productos o servicios que ofrece. Es importante considerar las palabras claves y evitar números o guiones en el nombre, esto tiende a confundir a quienes navegan buscando sitios en internet.
+              br
+              br
+              br
 
 
 
@@ -103,11 +107,11 @@
         )
         .bloque-texto-mitad-color-tema1
           .bloque-texto-g__texto.p-4
-            p.texto-interno-bloque-texto-mitad-color-tema1 Es así como la arquitectura orientada a servicios permite unificar varias funcionalidades para la solvencia de usuarios, empresas y procesos que definen la forma más simple para todos, al permitir disminución de costes toda vez que los servicios sean reutilizados, favoreciendo que las organizaciones y los grupos de desarrollo unifiquen aplicaciones creadas con tecnologías diversas y con funcionamiento operativo. Esta arquitectura disminuye costos por el aprovechamiento sistemático de los recursos utilizados en procesos diferentes como implementación, pruebas y puesta en marcha. Es en ese sentido que SOA, por sus siglas en inglés Service-Oriented Architectures, presenta grandes beneficios para el desarrollo de las aplicaciones como mantenimiento sencillo, escalabilidad fácil y mejorada, al ser servicios y no aplicaciones completas en un solo componente, confiabilidad e infraestructura heredada. 
+            p.texto-interno-bloque-texto-mitad-color-tema1 Es fundamental configurar un <em>hosting</em> para poder almacenar el contenido de la web que se haya diseñado, dependiendo, claro está, del plan elegido y la necesidad o cantidad de usuarios que se prevé para el sitio web porque, en el caso de muchas o miles de visitas, se hace necesario tener un servidor dedicado. Sin embargo, para configurar un <em>hosting</em>, usualmente se cuenta con una plataforma de ayuda, el cPanel, que provee opciones fáciles de configurar como correo electrónico, sistema de archivos editables, aplicaciones, configuración de cuentas de correo con el nombre del dominio adquirido, entre otras funciones.
       
     br
     br
-    p #[strong Para configurar un <i>hosting</i>> por primera vez, es necesario seguir los siguientes pasos:]
+    p #[strong Para configurar un <i>hosting</i> por primera vez, es necesario seguir los siguientes pasos:]
     
     br
     br
@@ -166,7 +170,7 @@
           .texto-izquierda-configuracion-hosting
             h4.p-2 cPanel
             p.p-2 En cPanel se puede visualizar el sistema de archivos para verificar que fue creado el directorio con el nombre del dominio indicado y su respectiva extensión, dentro de este directorio se crea una carpeta con el CMS WordPress o los archivos de la web. 
-              | Los proveedores de hosting tienen aplicaciones predeterminadas que ayudan a realizar la configuración de manera más amigable y sencilla, instalando automáticamente la plataforma con la que se vaya a publicar el sitio web.
+              | Los proveedores de <em>hosting</em> tienen aplicaciones predeterminadas que ayudan a realizar la configuración de manera más amigable y sencilla, instalando automáticamente la plataforma con la que se vaya a publicar el sitio web.
         
         .col-5
           figure
@@ -242,7 +246,7 @@
           .col-7
             p Un gestor de contenidos asiste en la creación de sitios web, permitiendo, de esa manera, la gestión, organización y administración, fácil y eficiente, de la aplicación web que se esté construyendo. Los CMS permiten a personas sin experiencia y sin conocimientos avanzados en diseño o desarrollo, realizar foros, blogs, páginas web, comercios electrónicos u otros aplicativos a partir de plantillas personalizables y <em>plugins</em> que aumentan capacidades, características y funcionalidades. Con pocas horas de trabajo, se puede tener una web lista con opciones de mejora, actualización constante y con herramientas como texto, videos, imágenes y diseño en general. Así mismo, los CMS brindan ventajas para SEO y posicionamiento en Google, permiten el trabajo colaborativo <em>online</em> y pueden ser gestionados por usuarios con roles distintos que comparten experiencias, diseños y enfoques.
             .cajon.color-acento-contenido.p-4
-              p Existen gran variedad de CMS con licencia GPL o de libre distribución y uso que pueden ser descargados y utilizados para gestionar contenido. Los siguientes CMS son los más empleados y demandados en la actualidad, cuentan con una amplia trayectoria, comunidad y plugins que permiten mayores funciones.
+              p Existen gran variedad de CMS con licencia GPL o de libre distribución y uso que pueden ser descargados y utilizados para gestionar contenido. Los siguientes CMS son los más empleados y demandados en la actualidad, cuentan con una amplia trayectoria, comunidad y <em>plugins</em> que permiten mayores funciones.
           .col-5
             figure
               img(data-aos="fade-down-right")(src="@/assets/curso/temas/imagen2-gestores-contenidos.png").imagen2-gestores-contenido

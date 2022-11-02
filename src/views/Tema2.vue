@@ -36,15 +36,15 @@
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA").tarjeta.fondo-tarjetas-acordeon-tema2
               .row(titulo="Monousuario")
                 .col-12
-                  p.mb-0.texto-tarjetas-acordeon-tema2 la arquitectura de este tipo funciona para sistemas que permiten conexión a un único usuario a la vez, por un determinado tiempo, y no permite a otros usuarios realizar operación alguna en la máquina. Independientemente de las características del ordenador, la arquitectura no permite usar la interfaz para gestionar procesos, aunque sea un solo usuario quien efectúe los procesos que requiera en un instante de tiempo; un ejemplo de estos sistemas es el MS-DOS. Los sistemas monousuarios no tienen restricciones para los usuarios, es decir, un usuario convencional tiene permisos iguales que uno administrador, y puede crear o eliminar cualquier tipo de ficheros, e, incluso, puede efectuar modificaciones en el sistema.
+                  p.mb-0.texto-tarjetas-acordeon-tema2 La arquitectura de este tipo funciona para sistemas que permiten conexión a un único usuario a la vez, por un determinado tiempo, y no permite a otros usuarios realizar operación alguna en la máquina. Independientemente de las características del ordenador, la arquitectura no permite usar la interfaz para gestionar procesos, aunque sea un solo usuario quien efectúe los procesos que requiera en un instante de tiempo; un ejemplo de estos sistemas es el MS-DOS. Los sistemas monousuarios no tienen restricciones para los usuarios, es decir, un usuario convencional tiene permisos iguales que uno administrador, y puede crear o eliminar cualquier tipo de ficheros, e, incluso, puede efectuar modificaciones en el sistema.
 
               .row(titulo="Multiusuario")
                 .col-12
-                  p.mb-0.texto-tarjetas-acordeon-tema2 a diferencia de los monousuarios, estos sistemas permiten la gestión, uso y administración a distintos usuarios conectados de forma simultánea, además, permiten compartir recursos distribuidos en una red, implementando seguridad en los datos compartidos. Estos sistemas regulan y ofrecen servicios a los usuarios que se conectan cuando ellos lo requieran y, adicionalmente, pueden compartir recursos como el procesador, la memoria, el disco duro, las aplicaciones, las impresoras, entre otros. Cabe resaltar que los sistemas multiusuarios permiten la comunicación entre los usuarios, las aplicaciones, el <em>hardware</em>, los juegos, los navegadores, como también, el bloqueo de ellos.
+                  p.mb-0.texto-tarjetas-acordeon-tema2 A diferencia de los monousuarios, estos sistemas permiten la gestión, uso y administración a distintos usuarios conectados de forma simultánea, además, permiten compartir recursos distribuidos en una red, implementando seguridad en los datos compartidos. Estos sistemas regulan y ofrecen servicios a los usuarios que se conectan cuando ellos lo requieran y, adicionalmente, pueden compartir recursos como el procesador, la memoria, el disco duro, las aplicaciones, las impresoras, entre otros. Cabe resaltar que los sistemas multiusuarios permiten la comunicación entre los usuarios, las aplicaciones, el <em>hardware</em>, los juegos, los navegadores, como también, el bloqueo de ellos.
 
               .row(titulo="Web")
                 .col-12
-                  p.mb-0.texto-tarjetas-acordeon-tema2 este tipo de arquitectura define la estructura de una aplicación web con el fin que sea fácilmente encontrada por los motores de búsqueda, consiste en organizar los elementos que la componen, los enlaces a otras páginas, el contenido bien definido, las imágenes, los videos y cada uno de los datos que se desean mostrar. Al crear plataformas web, se deben investigar muchos aspectos como, por ejemplo, proyectos nuevos que sean reconocidos, el producto o productos que se vayan a vender, en caso de que sea <em>e-commerce</em>, conocer al público a que va dirigido o investigar la competencia. Además, se deben tener en cuenta otros aspectos como la planeación, la toma de decisiones, la maquetación, la estructura o el diseño, para así tener claridad sobre la arquitectura requerida en la puesta en marcha.
+                  p.mb-0.texto-tarjetas-acordeon-tema2 Este tipo de arquitectura define la estructura de una aplicación web con el fin que sea fácilmente encontrada por los motores de búsqueda, consiste en organizar los elementos que la componen, los enlaces a otras páginas, el contenido bien definido, las imágenes, los videos y cada uno de los datos que se desean mostrar. Al crear plataformas web, se deben investigar muchos aspectos como, por ejemplo, proyectos nuevos que sean reconocidos, el producto o productos que se vayan a vender, en caso de que sea <em>e-commerce</em>, conocer al público a que va dirigido o investigar la competencia. Además, se deben tener en cuenta otros aspectos como la planeación, la toma de decisiones, la maquetación, la estructura o el diseño, para así tener claridad sobre la arquitectura requerida en la puesta en marcha.
 
           .col-lg-4
             figure(data-aos="zoom-in")
@@ -74,7 +74,7 @@
                   img(data-aos="fade-left")(src="@/assets/curso/temas/imagen2-clasificacion-arquitec-software.png").imagen-tarjetas-arquitectura-software
                   //(data-aos="fade-left"  data-aos-offset="500" )
               .col-8
-                p.texto-tarjetas-arquitectura-software #[strong Standalone,] basado en equipos unitarios que realizan todo el proceso y el multinivel o capas móviles, tiene en cuenta las divisiones que posee determinada aplicación para funcionar.
+                p.texto-tarjetas-arquitectura-software #[strong <em>Standalone</em>,] basado en equipos unitarios que realizan todo el proceso y el multinivel o capas móviles, tiene en cuenta las divisiones que posee determinada aplicación para funcionar.
     
     br
     br
@@ -113,7 +113,7 @@
       
       p.texto-inferior-sistemas-distribuidos Se debe tener presente que, al desarrollar <em>software</em>, es necesario tener alternativas para cuando existan fallas e inestabilidades. Siempre se debe prever lo que puede fallar en el sistema de información que se está desarrollando, para tener una forma de solucionar las posibles fallas en el momento y tiempo adecuado.
 
-      p.texto-inferior-sistemas-distribuidos A partir de lo anterior, se pueden definir las siguientes características:
+      p.texto-inferior-sistemas-distribuidos Existen dos aspectos importantes a tener en cuenta:
 
     br
     br

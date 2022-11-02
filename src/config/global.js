@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Arquitectura y servicios',
     descripcionCurso:
-      'La arquitectura de software es un método de desarrollo que emplea componentes, llamados servicios, en la creación de aplicaciones. Estos servicios brindan una capacidad a la organización y pueden comunicarse con el resto de servicios a través de diferentes plataformas y lenguajes.',
+      'La arquitectura de <em>software</em> es un método de desarrollo que emplea componentes, llamados servicios, en la creación de aplicaciones. Estos servicios brindan una capacidad a la organización y pueden comunicarse con el resto de servicios a través de diferentes plataformas y lenguajes.',
     imagenBannerPrincipal: require('@/assets/curso/portada/imagen-banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -100,7 +100,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Instalación, configuración, hosting, dominio y FTP',
+        titulo: 'Instalación, configuración, <em>hosting</em>, dominio y FTP',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -208,7 +208,7 @@ export default {
     {
       termino: 'Arquitectura',
       significado:
-        'en el entorno del software, este término hace referencia a la estructura y forma que tienen los sistemas de información a partir de estándares que han surgido de las necesidades de implementación.',
+        'en el entorno del <em>software</em>, este término hace referencia a la estructura y forma que tienen los sistemas de información a partir de estándares que han surgido de las necesidades de implementación.',
     },
     {
       termino: 'Arreglos',

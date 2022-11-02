@@ -59,7 +59,7 @@
         )
         .bloque-texto-mitad-color-tema1
           .bloque-texto-g__texto.p-4
-            p.texto-interno-bloque-texto-mitad-color-tema1 Es así como la arquitectura orientada a servicios permite unificar varias funcionalidades para la solvencia de usuarios, empresas y procesos que definen la forma más simple para todos, al permitir disminución de costes toda vez que los servicios sean reutilizados, favoreciendo que las organizaciones y los grupos de desarrollo unifiquen aplicaciones creadas con tecnologías diversas y con funcionamiento operativo. Esta arquitectura disminuye costos por el aprovechamiento sistemático de los recursos utilizados en procesos diferentes como implementación, pruebas y puesta en marcha. Es en ese sentido que SOA, por sus siglas en inglés Service-Oriented Architectures, presenta grandes beneficios para el desarrollo de las aplicaciones como mantenimiento sencillo, escalabilidad fácil y mejorada, al ser servicios y no aplicaciones completas en un solo componente, confiabilidad e infraestructura heredada. 
+            p.texto-interno-bloque-texto-mitad-color-tema1 Es así como la arquitectura orientada a servicios permite unificar varias funcionalidades para la solvencia de usuarios, empresas y procesos que definen la forma más simple para todos, al permitir disminución de costes toda vez que los servicios sean reutilizados, favoreciendo que las organizaciones y los grupos de desarrollo unifiquen aplicaciones creadas con tecnologías diversas y con funcionamiento operativo. Esta arquitectura disminuye costos por el aprovechamiento sistemático de los recursos utilizados en procesos diferentes como implementación, pruebas y puesta en marcha. Es en ese sentido que SOA, por sus siglas en inglés <em>Service-Oriented Architectures</em>, presenta grandes beneficios para el desarrollo de las aplicaciones como mantenimiento sencillo, escalabilidad fácil y mejorada, al ser servicios y no aplicaciones completas en un solo componente, confiabilidad e infraestructura heredada. 
     
     separador
 
@@ -254,7 +254,7 @@
 
               .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="68%" y="35.5%" numero="+")
                 //.h5.mb-2 Copia de seguridad diferencial
-                p Consiste en hacer copias de la información que guarda los datos que se modificaron desde la última copia efectuada, este proceso es mucho más rápido, ya que la información respaldada en este caso es mucho menor de la que contiene una copia completa. Sin embargo, ambos procesos son complementarios, es decir, uno funciona y puede ejecutarse diariamente y, el otro, se ejecuta cada cierto tiempo con una periodicidad prolongada.
+                p Consiste en crear respaldos de la información suministrada en equipos a los cuales se le atribuyó tal labor. Este tipo de réplicas corresponde a un tamaño mayor en comparación con las copias incrementales, debido a que estas copias acumulan los datos luego de la última copia completa o la última copia diferencial hecha.
 
               .tarjeta.tarjetas-punto-caliente-tema1.p-3(x="92.5%" y="35.5%" numero="+")
                 //.h5.mb-2 Copias de imágenes
