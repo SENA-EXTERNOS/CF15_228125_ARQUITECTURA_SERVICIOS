@@ -1,20 +1,10 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
-  //(icono="fas fa-sitemap" titulo="Síntesis")
+  BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-sexto.color-titulo-sexto
-      h4.texto-titulo-sintesis Desarrollo de aplicaciones web <em>full stack</em>
-      p.texto-titulo-sintesis Síntesis: Arquitectura y servicios
 
-    br
-
-
-    p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en este componente formativo.
-
-    br
-    br
+    p.mb-4 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5
