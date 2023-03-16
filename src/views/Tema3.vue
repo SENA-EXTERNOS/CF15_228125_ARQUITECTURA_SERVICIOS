@@ -17,7 +17,7 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/imagen-tarjeta1-tema3.png')})`}")
             .tarjeta-slide__contenido.text-white.p-4.p-xl-5
               h3 #[em Hosting]
-              p.mb-0 Es el espacio que se adquiere o alquila a un proveedor tecnológico para alojar el proyecto web que se está desarrollando y, en este espacio, se almacenará la información correspondiente al sitio web. Es necesario tener en cuenta varios aspectos al obtener un plan de hosting, como elegir el plan de almacenaje, tanto de memoria como de disco duro, el número de sitios, o la cantidad de sitios que pueda soportar el hosting. También, es necesario conocer de antemano el ancho de banda, los datos que soporta el servidor al mes por consumo de la web y la seguridad, siendo primordial, elegir planes que tengan certificados de seguridad como SSL (capa de puertos seguros), antivirus o <em>firewall</em>.
+              p.mb-0 Es el espacio que se adquiere o alquila a un proveedor tecnológico para alojar el proyecto web que se está desarrollando y, en este espacio, se almacenará la información correspondiente al sitio web. Es necesario tener en cuenta varios aspectos al obtener un plan de <i>hosting</i>, como elegir el plan de almacenaje, tanto de memoria como de disco duro, el número de sitios, o la cantidad de sitios que pueda soportar el <i>hosting</i>. También, es necesario conocer de antemano el ancho de banda, los datos que soporta el servidor al mes por consumo de la web y la seguridad, siendo primordial, elegir planes que tengan certificados de seguridad como SSL (capa de puertos seguros), antivirus o <em>firewall</em>.
 
       .col-md-6
         .tarjeta.tarjeta-slide.arriba.color-secundario.tema3(@mouseover="indicadorTarjetaSlide = false")
@@ -37,7 +37,7 @@
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/imagen-punto-caliente2-tema3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/img-3.svg', alt='Texto que describa la imagen')
               //figcaption Leyenda de la imagen
 
           .tarjeta.tarjetas-punto-caliente-tema3.p-3(x="28%" y="87%" numero="+")
@@ -74,7 +74,7 @@
           .row.align-items-center
             .col-md-7.mb-4.mb-md-0
               h4 Configuración
-              p Configurar los DNS (sistema de nombres de dominio) para que apunten al <em>hosting</em> que se está configurando, se debe apuntar el nombre del dominio, por ejemplo, www.mipagina.com, al hosting o espacio de almacenamiento. Esta información la entrega el proveedor de servicios.
+              p Configurar los DNS (sistema de nombres de dominio) para que apunten al <em>hosting</em> que se está configurando, se debe apuntar el nombre del dominio, por ejemplo, www.mipagina.com, al <i>hosting</i> o espacio de almacenamiento. Esta información la entrega el proveedor de servicios.
             .col-md-5
               figure
                 img(src='@/assets/curso/temas/imagen-configuracion-tema3.png', alt='Imagen decorativa')

@@ -52,10 +52,10 @@
           .row.align-items-center
             .col-4
               figure
-                img(data-aos="fade-right")(src="@/assets/curso/temas/imagen2-clasificacion-arquitec-software.png").imagen-tarjetas-arquitectura-software
+                img(data-aos="fade-right")(src="@/assets/curso/temas/imagen1-clasificacion-arquitec-software.png").imagen-tarjetas-arquitectura-software
                 //(data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine")
             .col-8
-              p.texto-tarjetas-arquitectura-software #[strong Cliente-servidor,] siendo uno quien provee (servidor) la petición realizada por el otro (cliente)
+              p.texto-tarjetas-arquitectura-software #[strong Cliente-servidor,] siendo uno quien provee (servidor) la petición realizada por el otro (cliente).
         
       .col-md-5.tarjetas-arquitectura-software
         .crd.crd--avatarHorizontal.py-4
@@ -69,7 +69,7 @@
     
 
    
-    p.mb-4 El siguiente video, nos muestra algunos elementos importantes sobre la arquitectura de software; visualícelo con atención:
+    p.mb-4 El siguiente video, nos muestra algunos elementos importantes sobre la arquitectura de <i>software</i>; visualícelo con atención:
 
     figure.mb-5
       .video

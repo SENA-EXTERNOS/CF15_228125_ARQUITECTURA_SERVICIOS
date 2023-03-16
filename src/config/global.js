@@ -202,7 +202,8 @@ export default {
     {
       referencia:
         'Descrier. (2017). <em>cPanel web hosting control panel.</em> Flickr. ',
-      link: 'www.flickr.com/photos/descrier/37286809866/in/photostream/',
+      link:
+        'https://www.flickr.com/photos/descrier/37286809866/in/photostream/',
     },
     {
       referencia: 'Dropbox. (2022). <em>¿Qué es el FTP?</em> Dropbox. ',
