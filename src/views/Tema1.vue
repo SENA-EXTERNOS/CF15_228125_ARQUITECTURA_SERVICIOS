@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.tema-1.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
@@ -42,8 +42,8 @@
           p.mb-0 El desarrollo de <em>software</em> requiere una implementación basada en una arquitectura orientada a servicios que se adapte a las necesidades del cliente que requiere ponerlo en marcha e implica una mejor organización y control en cuanto a la infraestructura modular, además de un mejor despliegue. A su vez, se diferencia de sistemas monolíticos basados en una sola aplicación en la que todas sus capas (acceso a datos, lógica de negocio e interfaz de usuario) se encuentran en un solo componente, precisando mayor trabajo a la hora del mantenimiento, solución de inconvenientes o actualización y control del sistema. 
 
     
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(data-aos="fade-left")(
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
+      .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/imagen-mitad-texto-color.png')})`}"
       )
       .bloque-texto-mitad-color-tema1
@@ -53,12 +53,12 @@
     
     h3.mb-4 Sistemas distribuidos  
       
-    .row.align-items-center.bloque1-sistemas-distribuidos.mb-5
+    .row.align-items-center.bloque1-sistemas-distribuidos.mb-5(data-aos="fade-down")
       .col-7
         p.texto1-sistemas-distribuidos.p-3 Los sistemas distribuidos, como su nombre lo indica, son programas que cumplen una función específica, formar una aplicación completa que conecta sus tareas y procesos con nodos a una red; estos nodos pueden ser equipos físicos u otros elementos lógicos acoplados entre sí. Estos sistemas permiten estabilidad en la infraestructura de las plataformas tecnológicas, es decir, la aplicación no colapsa cuando un nodo falla o cae, si esto llegara a pasar, los otros nodos podrían seguir ejecutando la aplicación, manteniendo su estado operativo. Estos sistemas son de alta tolerancia a fallos, hacen réplicas de cada uno de los equipos que procesan cada tarea, con el fin de dar seguridad al <em>software</em> base.
       .col-5
         figure
-          img(data-aos="fade")(src="@/assets/curso/temas/imagen-sistemas-distribuidos.png").imagen1-sistemas-distribuidos
+          img(src="@/assets/curso/temas/imagen-sistemas-distribuidos.png").imagen1-sistemas-distribuidos
       
       
     p Los sistemas distribuidos brindan seguridad, estabilidad y confianza, a partir de las funciones de cada uno de los equipos que hacen tareas independientes, al sincronizarse, permanecen alineados en pro de la ejecución y permanencia del sistema. Así, si un nodo falla, los otros procesos siguen su curso con el fin de mantener en línea la aplicación. 
@@ -88,32 +88,31 @@
             h4 Detección de errores
             p Permite fácilmente encontrar errores dentro de algún componente del sistema, por lo que es más simplificado y realiza tareas específicas.
 
-      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
+      .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-down")
         figure
-          img(data-aos="fade")(src="@/assets/curso/temas/imagen2-pestanas-tema1.png", alt="alt", style="width:450px;").m-auto
+          img(src="@/assets/curso/temas/imagen2-pestanas-tema1.png", alt="alt", style="max-width:450px;").m-auto
 
       
 
     h3.mb-4  Clustering
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
-      .bloque-texto-g__img(data-aos="fade")(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/imagen1-clustering.png')})`}"
-      )
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-down")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/imagen1-clustering.png')})`}")
       .bloque-texto-mitad-color-tema1
         .bloque-texto-g__texto.p-4
           p.texto-interno-bloque-texto-mitad-color-tema1 El <em>clustering</em> es un término relacionado con la ciencia de datos y la minería de datos, emplea algoritmos para determinar estructuras de agrupamientos y, de esta manera, se define como el agrupamiento de elementos no supervisado y se ejecuta entre campos que tengan, o no, relación entre ellos para conformar el grupo que es fuente de estudio. Después de contar con la información organizada, se determinan las circunstancias y metodologías por las cuales se tienen consignadas, de tal manera que se fijan las condiciones y el objeto de estudio con respecto a las necesidades que se han planteado.
 
 
 
-    .row.justify-content-around.align-items-center.mb-5
+    .row.justify-content-around.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-6
         .cajon.color-acento-contenido.p-4.mb-4
           p.mb-0 ¿Sabía que los <em>clustering</em> ayudan a organizar y estructurar información que es objeto de estudio para un fin determinado? En el caso de aplicar una promoción en un supermercado, por ejemplo, se cuenta con una base de datos de clientes agrupados por gustos, preferencias, ubicación, periodicidad de compras, etc., por lo que enviar una promoción para cada cliente resulta no solo complejo, sino dispendioso por el uso de una gran cantidad de tiempo. Con <em>clustering</em>, una posible forma sería enviar la promoción a cada cliente de acuerdo con uno o varios criterios seleccionados. 
         p Existen algoritmos <em>clustering</em> que ayudan a agrupar los datos de manera semejante o relacional, dependiendo del tipo de información que se desee evaluar con respecto a clientes, documentos, segmentación de imágenes, etc. Los siguientes son algunos algoritmos <em>clustering</em>.
       .col-lg-6
         figure
-          img(data-aos="fade")(src="@/assets/curso/temas/imagen2-clustering.png", alt="alt", style="width:450px;").m-auto
+          img(src="@/assets/curso/temas/imagen2-clustering.png", alt="alt", style="max-width:450px;").m-auto
 
 
     .row.justify-content-around.align-items-center.mb-5
@@ -123,7 +122,6 @@
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/imagen1-kmeans-tema1.png', alt='Texto que describa la imagen')
-                //figcaption Leyenda de la imagen
             .col-md-6.mb-4.mb-md-0
               //h4 Celebrate your failures 1
               p.texto-tabs-horizontales-tema1 Consiste en la realización cíclica para hallar equilibrio y, así, agrupar los elementos llamados K o centroides. Es una metodología ágil que permite hacer pocas iteraciones para llegar al punto de equilibrio.
@@ -133,9 +131,7 @@
             .col-md-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/imagen-DBSCAN-tema1.png', alt='Texto que describa la imagen')
-                //figcaption Leyenda de la imagen
             .col-md-6
-              //h4 Celebrate your failures 2
               p.texto-tabs-horizontales-tema1 Se relaciona con datos de distinto orden, son datos espaciales, su proceder difiere al de K-Means, siendo un algoritmo sumamente eficiente, las relaciones de sus elementos las realiza sin tener en cuenta el ruido alrededor de la información, como tampoco la lejanía o distancia entre datos.
         
         .py-3.py-md-4(titulo="Mean Shift")
@@ -143,9 +139,7 @@
             .col-md-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/imagen-Mean Shift-tema1.png', alt='Texto que describa la imagen')
-                //figcaption Leyenda de la imagen
             .col-md-6
-              //h4 Celebrate your failures 2
               p.texto-tabs-horizontales-tema1 Normalmente, usa funciones para los clústeres llamada función <em>kernel</em>, los datos están concentrados en el núcleo o centro de los nodos, e, igualmente, usa una función de densidad para determinar los clústeres relacionados con cada elemento dentro del grupo.
 
         .py-3.py-md-4(titulo="AGNES")
@@ -153,9 +147,7 @@
             .col-md-6.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/temas/imagen-AGNES-tema1.png', alt='Texto que describa la imagen')
-                //figcaption Leyenda de la imagen
             .col-md-6
-              //h4 Celebrate your failures 2
               p.texto-tabs-horizontales-tema1 Emplea un método de conexión para agregar sus elementos de manera secuencial y disciplinada, calculando las distancias de cada dato para agregarlo al clúster.
 
 
@@ -163,12 +155,12 @@
 
     h3.mb-4 Arreglos
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down")
       .col-7.bloque-arreglos-tema1
         p.texto-arreglos-tema1-1.p-3 Los arreglos son tipos de datos que pueden operar en distintas dimensiones, se conocen también como <em>arrays</em>, vectores o matrices, y manejan índices, en los cuales, el primer elemento de un <em>array</em> es el 0 y, el último, el n-1, siendo n la cantidad de elementos. Los valores de un arreglo son los datos que lo conforman o que están contenidos en él, estos tipos de datos son muy utilizados en los lenguajes de programación actuales como Java, JavaScript, Python, etc., y permiten almacenar valores de forma secuencial. Como se observa en la siguiente imagen, su estructura parece la de una lista. 
       .col-5.fondo-imagen-arreglos
         figure
-          img(data-aos="flip-up")(src="@/assets/curso/temas/imagen-arreglos-tema1.png").imagen-arreglos-tema1
+          img(src="@/assets/curso/temas/imagen-arreglos-tema1.png")
       
       
     .titulo-sexto.color-acento-contenido
@@ -177,10 +169,9 @@
     .row.justify-content-center.mb-5
       .col-md-9.mb-5
         figure
-          img(src='@/assets/curso/temas/img-1.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/img-1.png', alt='')
     
-
-    
+   
 
 
     h3.mb-4 Métodos de respaldo 
@@ -194,8 +185,7 @@
     ImagenInfografica.color-primario.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/img-2.png', alt='Texto que describa la imagen')
-
+          img(src='@/assets/curso/temas/img-2.png', alt='')
 
       .tarjeta.color-primario.fnd-1.p-3(x="18.5%" y="36%" numero="+")
         p Consiste en obtener el máximo respaldo de toda la información contenida en cualquier dispositivo de almacenamiento o servidor. Este método, normalmente, se ejecuta por primera vez desde su configuración y el tamaño de la copia es amplio en comparación con copias parciales. Si se efectúan copias a bases de datos, igualmente se realiza una copia generalizada de toda la información contenida en el dispositivo de almacenamiento. Lo mismo ocurre con copias a sistemas virtualizados, se realiza respaldo de toda la máquina para asegurar, en caso de alguna falla, su correcto funcionamiento y su data intacta.
