@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF15_228125_ARQUITECTURA_SERVICIOS/](https://sena-externos.github.io/CF15_228125_ARQUITECTURA_SERVICIOS/)
 
 #
 

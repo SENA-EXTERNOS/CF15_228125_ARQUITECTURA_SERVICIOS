@@ -118,8 +118,7 @@
           img(data-aos="fade-right")(src="@/assets/curso/temas/imagen2-plan-contingencia.png")
 
       .col-6
-        p Para determinar lo que puede salir mal dentro de una infraestructura de <em>software</em>, es necesario identificar las amenazas, clasificarlas en orden jerárquico según su intensidad, o según cuál cause mayor daño o afecte el funcionamiento del sistema. De esta forma, se puede trabajar de manera contundente y con mayor impacto para disminuir el grado de afectación en caso de ocurrencia. Se debe tener documentación de los puntos débiles de la plataforma, los que más entorpecen su funcionamiento, la posible forma de contrarrestarlos, o los riesgos de manera global, incluyendo el recurso humano, los procedimientos, el proyecto y todo lo que esté relacionado con el desarrollo de la idea original y el transcurso de la puesta en marcha del proyecto.
-          | Así mismo, debe haber periodicidad de revisión de riesgos para tener un plan de contingencia de lo que se va albergando a medida que avanza su ejecución. 
+        p Para determinar lo que puede salir mal dentro de una infraestructura de <em>software</em>, es necesario identificar las amenazas, clasificarlas en orden jerárquico según su intensidad, o según cuál cause mayor daño o afecte el funcionamiento del sistema. De esta forma, se puede trabajar de manera contundente y con mayor impacto para disminuir el grado de afectación en caso de ocurrencia. Se debe tener documentación de los puntos débiles de la plataforma, los que más entorpecen su funcionamiento, la posible forma de contrarrestarlos, o los riesgos de manera global, incluyendo el recurso humano, los procedimientos, el proyecto y todo lo que esté relacionado con el desarrollo de la idea original y el transcurso de la puesta en marcha del proyecto. Así mismo, debe haber periodicidad de revisión de riesgos para tener un plan de contingencia de lo que se va albergando a medida que avanza su ejecución. 
 
     
 

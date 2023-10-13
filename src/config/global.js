@@ -104,10 +104,10 @@ export default {
     {
       tema: 'Arquitectura y servicios',
       referencia:
-        'Martínez, J. (2020). <em>Clustering (agrupamiento), K-Means con ejemplos en phyton.</em>  IArtificial.',
+        'Martínez, J. (2020). <em>Clustering (agrupamiento), K-Means con ejemplos en phyton.</em> IArtificial.',
       tipo: 'Web',
       link:
-        'https://www.iartificial.net/clustering-agrupamiento-kmeans-ejemplos-en-python/ ',
+        'https://www.iartificial.net/clustering-agrupamiento-kmeans-ejemplos-en-python/',
     },
     {
       tema: 'Arquitectura y servicios',

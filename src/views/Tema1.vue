@@ -29,8 +29,7 @@
             p Forma de implementar, organizar, diseñar y poner en marcha los elementos que componen una plataforma de desarrollo, mediante técnicas que se llevan a cabo a través de estándares de calidad y servicio.
 
           .tarjeta.bg2.p-4(titulo="Arquitectura para desarrollo de aplicaciones").bloque-texto-pestanas-verticales
-            h4 Arquitectura para desarrollo
-              | de aplicaciones
+            h4 Arquitectura para desarrollo de aplicaciones
             p Está orientada a servicios, permite que se amplíen las funcionalidades de cada sistema al estar implementado por servicios separados que se unen para completar un todo. Además, es reutilizable para otras plataformas o aplicaciones sin afectar su estado anterior.
       .col-lg-4(data-aos="fade-left")
         figure
@@ -40,7 +39,7 @@
     .row.justify-content-around.align-items-center.mb-4
       .col-lg-10
         .cajon.color-acento-contenido.p-4
-          p El desarrollo de <em>software</em> requiere una implementación basada en una arquitectura orientada a servicios que se adapte a las necesidades del cliente que requiere ponerlo en marcha e implica una mejor organización y control en cuanto a la infraestructura modular, además de un mejor despliegue. A su vez, se diferencia de sistemas monolíticos basados en una sola aplicación en la que todas sus capas (acceso a datos, lógica de negocio e interfaz de usuario) se encuentran en un solo componente, precisando mayor trabajo a la hora del mantenimiento, solución de inconvenientes o actualización y control del sistema. 
+          p.mb-0 El desarrollo de <em>software</em> requiere una implementación basada en una arquitectura orientada a servicios que se adapte a las necesidades del cliente que requiere ponerlo en marcha e implica una mejor organización y control en cuanto a la infraestructura modular, además de un mejor despliegue. A su vez, se diferencia de sistemas monolíticos basados en una sola aplicación en la que todas sus capas (acceso a datos, lógica de negocio e interfaz de usuario) se encuentran en un solo componente, precisando mayor trabajo a la hora del mantenimiento, solución de inconvenientes o actualización y control del sistema. 
 
     
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
@@ -59,7 +58,7 @@
         p.texto1-sistemas-distribuidos.p-3 Los sistemas distribuidos, como su nombre lo indica, son programas que cumplen una función específica, formar una aplicación completa que conecta sus tareas y procesos con nodos a una red; estos nodos pueden ser equipos físicos u otros elementos lógicos acoplados entre sí. Estos sistemas permiten estabilidad en la infraestructura de las plataformas tecnológicas, es decir, la aplicación no colapsa cuando un nodo falla o cae, si esto llegara a pasar, los otros nodos podrían seguir ejecutando la aplicación, manteniendo su estado operativo. Estos sistemas son de alta tolerancia a fallos, hacen réplicas de cada uno de los equipos que procesan cada tarea, con el fin de dar seguridad al <em>software</em> base.
       .col-5
         figure
-          img(data-aos="fade-up-left")(src="@/assets/curso/temas/imagen-sistemas-distribuidos.png").imagen1-sistemas-distribuidos
+          img(data-aos="fade")(src="@/assets/curso/temas/imagen-sistemas-distribuidos.png").imagen1-sistemas-distribuidos
       
       
     p Los sistemas distribuidos brindan seguridad, estabilidad y confianza, a partir de las funciones de cada uno de los equipos que hacen tareas independientes, al sincronizarse, permanecen alineados en pro de la ejecución y permanencia del sistema. Así, si un nodo falla, los otros procesos siguen su curso con el fin de mantener en línea la aplicación. 
@@ -91,14 +90,14 @@
 
       .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0
         figure
-          img(data-aos="fade-down-right")(src="@/assets/curso/temas/imagen2-pestanas-tema1.png", alt="alt", style="width:450px;").m-auto
+          img(data-aos="fade")(src="@/assets/curso/temas/imagen2-pestanas-tema1.png", alt="alt", style="width:450px;").m-auto
 
       
 
     h3.mb-4  Clustering
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
-      .bloque-texto-g__img(data-aos="fade-down-left")(
+      .bloque-texto-g__img(data-aos="fade")(
         :style="{'background-image': `url(${require('@/assets/curso/temas/imagen1-clustering.png')})`}"
       )
       .bloque-texto-mitad-color-tema1
@@ -114,7 +113,7 @@
         p Existen algoritmos <em>clustering</em> que ayudan a agrupar los datos de manera semejante o relacional, dependiendo del tipo de información que se desee evaluar con respecto a clientes, documentos, segmentación de imágenes, etc. Los siguientes son algunos algoritmos <em>clustering</em>.
       .col-lg-6
         figure
-          img(data-aos="zoom-in")(src="@/assets/curso/temas/imagen2-clustering.png", alt="alt", style="width:450px;").m-auto
+          img(data-aos="fade")(src="@/assets/curso/temas/imagen2-clustering.png", alt="alt", style="width:450px;").m-auto
 
 
     .row.justify-content-around.align-items-center.mb-5
