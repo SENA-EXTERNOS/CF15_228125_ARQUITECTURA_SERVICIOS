@@ -28,7 +28,7 @@
             h4 Arquitectura de <em>software</em>
             p Forma de implementar, organizar, diseñar y poner en marcha los elementos que componen una plataforma de desarrollo, mediante técnicas que se llevan a cabo a través de estándares de calidad y servicio.
 
-          .tarjeta.bg2.p-4(titulo="Arquitectura para desarrollo de aplicaciones").bloque-texto-pestanas-verticales
+          .tarjeta.bg2.p-4(titulo="Arquitectura para desarrollo<br> de aplicaciones").bloque-texto-pestanas-verticales
             h4 Arquitectura para desarrollo de aplicaciones
             p Está orientada a servicios, permite que se amplíen las funcionalidades de cada sistema al estar implementado por servicios separados que se unen para completar un todo. Además, es reutilizable para otras plataformas o aplicaciones sin afectar su estado anterior.
       .col-lg-4(data-aos="fade-left")
@@ -80,7 +80,7 @@
             h4 Transparencia
             p Se ejecuta en distintos nodos dependiendo la necesidad o la solicitud de cada usuario, sin embargo, se obtiene una respuesta sin saber de dónde proviene, pero, para el solicitante, el proceso es transparente siempre que su petición haya sido respondida.
 
-          .tarjeta.bg2.p-4(titulo="Independencia de los componentes").bloque-texto-pestanas-verticales
+          .tarjeta.bg2.p-4(titulo="Independencia de los <br>componentes").bloque-texto-pestanas-verticales
             h4 Independencia de los componentes
             p Los nodos operan de forma aislada sin depender de los demás, pero, así mismo, trabajan conjuntamente, lo que implica que si un componente de <em>hardware</em> falla, el sistema sigue su ejecución normal sin afectar las funcionalidades.
 

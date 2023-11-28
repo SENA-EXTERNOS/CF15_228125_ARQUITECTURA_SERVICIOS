@@ -104,7 +104,7 @@ export default {
     {
       tema: 'Arquitectura y servicios',
       referencia:
-        'Martínez, J. (2020). <em>Clustering (agrupamiento), K-Means con ejemplos en phyton.</em> IArtificial.',
+        'Martínez, J. (2020). <em>Clustering (agrupamiento), K-Means con ejemplos en Python.</em> IArtificial.',
       tipo: 'Web',
       link:
         'https://www.iartificial.net/clustering-agrupamiento-kmeans-ejemplos-en-python/',
@@ -199,12 +199,7 @@ export default {
       link:
         'https://revistas.ucr.ac.cr/index.php/economicas/article/view/7076/6761',
     },
-    {
-      referencia:
-        'Descrier. (2017). <em>cPanel web hosting control panel.</em> Flickr. ',
-      link:
-        'https://www.flickr.com/photos/descrier/37286809866/in/photostream/',
-    },
+
     {
       referencia: 'Dropbox. (2022). <em>¿Qué es el FTP?</em> Dropbox. ',
       link:
